@@ -30,10 +30,18 @@ header {
     font-weight: bold;
     color: #262424;
 }
+.botonera ul li a:hover {
+    transform: translateY(-3px);
+    transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .8s;
+    color: #99a799;
+}
+
 
 .logo {
     margin-left: 20px;
 }
+
+
 .botonCarrito {
     text-decoration: none;
     font-size: 14px;
@@ -42,7 +50,7 @@ header {
     padding: 14px 32px;
     border-radius: 4px;
     color: #fff;
-    background-image: linear-gradient(to right, #3fbbc0, #0083B0);
+    background-image: linear-gradient(to right, #04191a, #454647);
 }
 
 .botonCarrito:hover {
